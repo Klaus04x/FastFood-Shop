@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FastFood Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+    <a href="index.html" class="logo">
+        <img src="img/fast-food.png" alt="">
+    </a>
+    <nav class="navbar">
+        <a href="index.html">home</a>
+        <a href="about.html">about</a>
+        <a href="menu.html">menu</a>
+        <a href="product.html">combo</a>
+        <a href="review.html" class="active">review</a>
+        <a href="contact.html">contact</a>
+        <!-- <a href="#blogs">blogs</a> -->
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+
+    <div class="cart-items-container">
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="img/fried_chicken.jpg" alt="">
+            <div class="content">
+                <h3>fried chicken</h3>
+                <div class="price">$2.5</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="img/coffee.jpg" alt="">
+            <div class="content">
+                <h3>coffee</h3>
+                <div class="price">$1</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="img/tiramisu.jpg" alt="">
+            <div class="content">
+                <h3>tiramisu</h3>
+                <div class="price">$0.6</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="img/sausages.jpg" alt="">
+            <div class="content">
+                <h3>sausages</h3>
+                <div class="price">$1.2</div>
+            </div>
+        </div>
+        <a href="#" class="btn" id="checkout">checkout now</a>
+    </div>
+</header>
+<script src="script.js"></script>
+<section class="review" id="review">
+    <h1 class="heading"> Customer's <span>review</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="img/feedback.png" alt="" class="quote">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, aliquam sint eligendi veniam magnam facere vitae ut corporis mollitia, dignissimos reprehenderit qui quas, dolorem quod fugit illum recusandae pariatur quae!</p>
+            <img src="img/joe.jpg" class="user" alt="">
+            <h3>Joe Bastianich</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="img/feedback.png" alt="" class="quote">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, aliquam sint eligendi veniam magnam facere vitae ut corporis mollitia, dignissimos reprehenderit qui quas, dolorem quod fugit illum recusandae pariatur quae!</p>
+            <img src="img/gordon.jpg" class="user" alt="">
+            <h3>gordon ramsay</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="img/feedback.png" alt="" class="quote">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, aliquam sint eligendi veniam magnam facere vitae ut corporis mollitia, dignissimos reprehenderit qui quas, dolorem quod fugit illum recusandae pariatur quae!</p>
+            <img src="img/elliot.jpg" class="user" alt="">
+            <h3>Graham Elliot</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
